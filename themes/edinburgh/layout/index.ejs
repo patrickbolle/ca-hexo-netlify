@@ -1,3 +1,14 @@
 <% page.posts.forEach(function(item){ %>
     <%- partial('_partial/portfolio-index', {item: item}) %>
 <% }); %>
+<script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+  </script>
