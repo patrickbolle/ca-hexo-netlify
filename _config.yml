@@ -79,3 +79,9 @@ theme: edinburgh
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:
+
+menu:
+  ## If your site is put in a subdirectory, set Home as '/child/'
+  Home: /
+  Projects: /projects
+  Contact: /contact
