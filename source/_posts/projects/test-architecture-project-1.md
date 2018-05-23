@@ -2,6 +2,8 @@
 title: 'Test Architecture Project #1'
 date: '2018-05-22T10:38:29-06:00'
 thumbnail: /img/01.jpg
+categories:
+  - Projects
 ---
 Lorem ipsum dolor sit amet, per minim molestiae ne. Nihil impetus perpetua no ius, nec in vero diceret ocurreret, quo an novum tamquam erroribus. Quo enim fuisset ei. Omnium perpetua mel cu, eu pri debet errem iracundia. Pro ne odio oporteat lobortis.
 

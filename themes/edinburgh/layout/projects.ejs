@@ -1,0 +1,12 @@
+<div class="Index">
+    <% site.categories.findOne({name: 'Projects'}).posts.sort('date', -1).each(function(post, i){%>
+     <% if (i == 0) { %>
+      <li class="first">
+     <% } else { %>
+     <li>
+     <% } %>
+     <%- partial('_partial/portfolio-index', { post: post }) %>
+     </li>
+   <% }) %>
+ </div>
+ 

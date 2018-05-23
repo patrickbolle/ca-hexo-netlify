@@ -83,5 +83,5 @@ deploy:
 menu:
   ## If your site is put in a subdirectory, set Home as '/child/'
   Home: /
-  Projects: /projects
+  Projects: /projects/
   Contact: /contact
