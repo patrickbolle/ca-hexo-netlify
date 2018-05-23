@@ -4,16 +4,5 @@
   </div>
 <% } %>
 <div class="col-12 pt-lg-3 mb-4 px-4 portfolio-content">
-  <div class="Index">
-    <% site.categories.findOne({name: 'Projects'}).posts.sort('date', -1).each(function(post, i){%>
-      <% if (i == 0) { %>
-      <li class="first">
-      <% } else { %>
-      <li>
-      <% } %>
-      <%- partial('_partial/portfolio-index', { post: post }) %>
-      </li>
-    <% }) %>
-  </div>
-     
+    <%- item.content %>
 </div>
