@@ -1,12 +1,12 @@
 ---
 title: MANOR Residence
-date: '2018-05-10T11:50:17-06:00'
 thumbnail: /img/05.jpg
-galleria:
+gallery:
   - imgSrc: /img/05.jpg
-    imgTitle: 'Interior '
+    imgTitle: Interior
   - imgSrc: /img/03.jpg
     imgTitle: Exterior
+date: '2018-05-10T11:50:17-06:00'
 ---
 Lorem ipsum dolor sit amet, per dolor regione phaedrum et. Pri illud ancillae ne, eu eos erat offendit, altera appetere nominati quo ad. An equidem accusata principes vel. Singulis instructior ei pri. Omnis graecis lucilius et nec.
 
